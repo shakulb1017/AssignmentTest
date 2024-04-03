@@ -1,0 +1,219 @@
+/* only screen and (min-width: 480px) */
+.navbar{
+    position: relative;
+    background-color: white;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+  
+}
+
+.logo{
+    position: relative;
+    margin-bottom: 200px;
+   margin-left: 200px;
+}
+
+.logo img{
+   height: 6.25rem;
+   width:6.25rem;
+}
+
+.navbar ul{
+    position: absolute;
+   margin-top: 350px; 
+   margin-left: 20px;
+ 
+  display: flex;
+  flex-direction: column;
+
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a{
+   display: block;
+   /* padding: .18rem 1rem; */
+   border-radius: 20px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+
+
+.nav-icons{
+    display: none;
+  
+  
+}
+
+
+.home{
+    position: relative;
+    /* top: 0; */
+    /* height: 41rem; */
+    padding-top: 250px;
+    /* margin-bottom: 800px; */
+}
+
+.home::before{
+    content: "";
+    background: url('heroimg.jpg') no-repeat ;
+    background-size: 100%;
+    position: absolute;
+    z-index: -1;
+    /* margin-bottom: 900px; */
+    /* padding-top: 500px; */
+
+}
+
+.btn-1{
+    margin:16rem 2rem;
+    /* margin:35rem 7rem; */
+    padding: .5rem 2rem;
+    font-size: .6rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(to right, black ,rgb(94, 90, 90));
+}
+
+
+.container{
+    position: relative;
+    /* height: 10rem; */
+    background-color: rgba(0, 0, 0, 0.285);
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -5.4rem;
+}
+
+.one{
+/* position: absolute; */
+    margin-top: 1.3rem;
+    height: 8rem;
+    width: 22rem;
+}
+
+
+.item-container{
+   background-color: rgb(219, 223, 223);
+   height: 50rem;
+}
+
+.item-container .heading{
+    padding: 50px 60px;
+    font-size: 1.9rem;
+}
+
+.item-container .main-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.item-container .main-card .card{
+   height: 25rem;
+   width: 20rem;
+   margin: 20px;
+   /* border: 1px solid red; */
+}
+
+.card img{
+    height: 15rem;
+    width: 20rem;
+}
+
+
+/* sub heading */
+.card .sub-heading-rooms{
+    margin: 15px 0;
+    font-size: 1rem;
+    text-align: left;
+    /* margin-top: 2rem; */
+    
+}
+
+.card .sub-heading-dining{
+    margin: 15px 0;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card .sub-heading-pool{
+    margin: 15px 0;
+    font-size: 1rem;
+    text-align: right;
+}
+
+
+/* description*/
+
+.card .description-rooms{
+    height: 3rem;
+    width: 19rem;
+    text-align: start;
+    font-size: .7rem;
+    /* margin:70px; */
+}
+.card .description-dining{
+    height: 3rem;
+    width: 19rem;
+    text-align: center;
+    margin-left: -2px;
+    font-size: .7rem;
+}
+.card .description-pool{
+    height: 3rem;
+    width: 19rem;
+    font-size: .7rem;
+    text-align: end;
+    margin-left: 1rem;
+}
+
+/*buttions */
+
+.card .rooms-btn{
+    margin-top: 15px;
+    padding: 6px 30px;
+    background: black;
+    color: white;
+    
+}
+
+.card .dining-btn{
+    padding: 6px 30px;
+    margin-top: 15px;
+    background: black;
+    color: white;
+    margin-left: 5rem;
+}
+
+.card .pool-btn{
+    padding: 6px 30px;
+    margin-top: 15px;
+    background: black;
+    color: white;
+    margin-left: 11.3rem;
+}
+
+
+    
